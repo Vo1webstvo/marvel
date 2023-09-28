@@ -1,0 +1,117 @@
+{
+  "results": [
+    {
+      "id": 1011095,
+      "name": "Captain Marvel (Monica Rambeau)",
+      "description": "",
+      "modified": "2016-06-16T14:25:15-0400",
+      "thumbnail": {
+        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/4c0030bee8c86",
+        "extension": "jpg"
+      },
+
+      "comics": {
+        "available": 37,
+        "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011095/comics",
+        "items": [
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16890",
+            "name": "Amazing Spider-Man Annual (1964) #16"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7094",
+            "name": "Avengers (1963) #227"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7100",
+            "name": "Avengers (1963) #232"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7106",
+            "name": "Avengers (1963) #238"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7109",
+            "name": "Avengers (1963) #240"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7114",
+            "name": "Avengers (1963) #245"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7143",
+            "name": "Avengers (1963) #271"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7156",
+            "name": "Avengers (1963) #283"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7157",
+            "name": "Avengers (1963) #284"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7158",
+            "name": "Avengers (1963) #285"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7159",
+            "name": "Avengers (1963) #286"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7160",
+            "name": "Avengers (1963) #287"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7161",
+            "name": "Avengers (1963) #288"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7164",
+            "name": "Avengers (1963) #290"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7165",
+            "name": "Avengers (1963) #291"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7166",
+            "name": "Avengers (1963) #292"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7167",
+            "name": "Avengers (1963) #293"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/7168",
+            "name": "Avengers (1963) #294"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/6928",
+            "name": "Avengers Annual (1967) #14"
+          },
+          {
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/6930",
+            "name": "Avengers Annual (1967) #16"
+          }
+        ],
+        "returned": 20
+      },
+
+      "urls": [
+        {
+          "type": "detail",
+          "url": "http://marvel.com/characters/9/captain_marvel?utm_campaign=apiRef&utm_source=537ee451b8fd1f8d64eeb59fd0a2eb43"
+        },
+        {
+          "type": "wiki",
+          "url": "http://marvel.com/universe/Rambeau,%20Monica?utm_campaign=apiRef&utm_source=537ee451b8fd1f8d64eeb59fd0a2eb43"
+        },
+        {
+          "type": "comiclink",
+          "url": "http://marvel.com/comics/characters/1011095/captain_marvel_monica_rambeau?utm_campaign=apiRef&utm_source=537ee451b8fd1f8d64eeb59fd0a2eb43"
+        }
+      ]
+    }
+  ]
+}
