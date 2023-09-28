@@ -8,7 +8,8 @@ import ErrorMessage from '../errorMessage/ErrorMessage';
 import './charList.scss';
 
 const CharList: React.FC = () => {
-  const [offset, setOffset] = useState<number>(210);
+  // const [offset, setOffset] = useState<number>(210);
+  const offset: number = 210;
   const [limit, setLimit] = useState<number>(9);
   const { data, isLoading, isError, isFetching } = useGetCharListQuery({ offset, limit });
   const dispath = useAppDispatch();

@@ -1,12 +1,12 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { transformCharacter } from './../../utils/transformResponse';
-import { IResult, IServRes } from '../../type/iOneChar';
+import { IResult } from '../../type/iOneChar';
 
 export const fetcRandomhUserById = createAsyncThunk(
   'randomChar/fetcRandomhUserById',
   async (id: number) => {
-    const res: IServRes = await axios.get(
+    const res = await axios.get(
       `https://gateway.marvel.com:443/v1/public/characters/${id}?apikey=537ee451b8fd1f8d64eeb59fd0a2eb43`,
     );
     return transformCharacter(res.data.data.results[0]) as IResult; //createAsyncThunk добавляет доп поле data. пока не буду убирать, так как основные запросы через RTK Query и все интерфейсы для Rtk Query
